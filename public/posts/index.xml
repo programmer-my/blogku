@@ -1,21 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Programmer.my</title>
-    <link>https://programmer.my/posts/</link>
-    <description>Recent content in Posts on Programmer.my</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 26 Apr 2023 20:32:32 +0800</lastBuildDate><atom:link href="https://programmer.my/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>https://programmer.my/posts/my-first-post/</link>
-      <pubDate>Wed, 26 Apr 2023 20:32:32 +0800</pubDate>
-      
-      <guid>https://programmer.my/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Programmer.my</title><link>https://programmer.my/posts/</link><description>Recent content in Posts on Programmer.my</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 26 Apr 2023 20:32:32 +0800</lastBuildDate><atom:link href="https://programmer.my/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>My Test post github action</title><link>https://programmer.my/posts/my-first-post/</link><pubDate>Wed, 26 Apr 2023 20:32:32 +0800</pubDate><guid>https://programmer.my/posts/my-first-post/</guid><description>Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!</description></item></channel></rss>

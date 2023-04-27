@@ -7,15 +7,21 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
     if: github.ref == 'refs/heads/master'
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Install Hugo
       run: sudo apt install hugo
+
+    - name: Setup node
+      uses: actions/setup-node@v3
 
     - name: Configure AWS CLI
       env:
@@ -27,7 +33,14 @@ jobs:
         aws configure set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
         aws configure set default.region $AWS_DEFAULT_REGION
 
-    - name: Build and deploy site
+    - name: Install dependencies
       run: |
-        hugo
+        yarn 
+
+    - name: Build
+      run: |
+        yarn build
+
+    - name: Deploy site
+      run: |
         hugo deploy
