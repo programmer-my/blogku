@@ -11,7 +11,6 @@ tags = [
 ]
 categories = [
     "themes",
-    "syntax",
 ]
 +++
 
