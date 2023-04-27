@@ -1,7 +1,7 @@
 ---
 title: "My First Post"
 date: 2023-04-26T20:32:32+08:00
-draft: true
+draft: false
 image: "img/avatar.jpg"
 ---
 
